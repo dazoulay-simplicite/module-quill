@@ -9,7 +9,7 @@ class QuillEditor extends Simplicite.UI.ExternalObject {
 					// console.log('Quil loaded !');
 					try {
 						const quill = new Quill('#quilleditor-editor', { theme: 'snow' });
-						$('#apptestquill-ok').on('click', () => {
+						$('#quilleditor-ok').on('click', () => {
 							alert(quill.getSemanticHTML());
 							//console.log(quill.getContents());
 						});
