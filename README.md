@@ -11,11 +11,11 @@
 `Quill` module definition
 =========================
 
-
+**Quill** WYSIWYG editor tools
 
 `QuillEditor` external object definition
 ----------------------------------------
 
-
+Simple Quill editor
 
 

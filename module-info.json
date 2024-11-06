@@ -1,9 +1,9 @@
 {
-    "date": "2024-11-06 15:47:01",
+    "date": "2024-11-06 15:50:44",
     "name": "Quill",
     "format": "xml",
     "files": ["Quill.xml"],
     "repository": {"origin": {"uri": "https://github.com/dazoulay-simplicite/module-quill.git"}},
-    "version": "0.1",
+    "version": "6",
     "platform": "6.1.14-preview"
 }

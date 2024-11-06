@@ -5,16 +5,14 @@
 	<action>upsert</action>
 	<data>
 		<mdl_name>Quill</mdl_name>
-		<mdl_version>0.1</mdl_version>
+		<mdl_version>6</mdl_version>
 		<mdl_prefix>quill</mdl_prefix>
 		<mdl_url><![CDATA[{
-	"origin": {
-		"uri": "https://github.com/dazoulay-simplicite/module-quill.git"
-	},
-	"type": "git"
+    "origin": {"uri": "https://github.com/dazoulay-simplicite/module-quill.git"},
+    "type": "git"
 }]]></mdl_url>
 		<mdl_type>X</mdl_type>
-		<mdl_comment/>
+		<mdl_comment><![CDATA[**Quill** WYSIWYG editor tools]]></mdl_comment>
 	</data>
 </object>
 <object>
@@ -59,7 +57,7 @@
 		<obe_nature>com_simplicite_webapp_web_ResponsiveExternalObject</obe_nature>
 		<obe_url/>
 		<obe_settings/>
-		<obe_comment/>
+		<obe_comment><![CDATA[Simple Quill editor]]></obe_comment>
 		<obe_help/>
 		<obe_class>com.simplicite.webapp.web.ResponsiveExternalObject</obe_class>
 		<obe_script_id/>
