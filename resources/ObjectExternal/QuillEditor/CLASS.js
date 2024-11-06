@@ -7,11 +7,15 @@ class QuillEditor extends Simplicite.UI.ExternalObject {
 				url: 'https://cdn.jsdelivr.net/npm/quill@2.0.2/dist/quill.js',
 				onload: () => {
 					// console.log('Quil loaded !');
-					const quill = new Quill('#quilleditor-editor', { theme: 'snow' });
-					$('#apptestquill-ok').on('click', () => {
-						alert(quill.getSemanticHTML());
-						//console.log(quill.getContents());
-					});
+					try {
+						const quill = new Quill('#quilleditor-editor', { theme: 'snow' });
+						$('#apptestquill-ok').on('click', () => {
+							alert(quill.getSemanticHTML());
+							//console.log(quill.getContents());
+						});
+					} catch(err) {
+						alert(err.message);
+					}
 				}
 			})
 		});
